@@ -15,6 +15,8 @@ public class CicdHelloWorldApplication {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "hello";
+		return "hello".toString();
 	}
+	
+	
 }
