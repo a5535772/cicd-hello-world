@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController("/")
-public class CiciHelloWorldApplication {
+public class CicdHelloWorldApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CiciHelloWorldApplication.class, args);
+		SpringApplication.run(CicdHelloWorldApplication.class, args);
 	}
 	
 	@GetMapping("/")
